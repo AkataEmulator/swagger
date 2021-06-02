@@ -1,13 +1,13 @@
-package com.veeva.knife4j;
+package com.veeva.swagger;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Knife4jApplication {
+public class SwaggerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Knife4jApplication.class, args);
+        SpringApplication.run(SwaggerApplication.class, args);
     }
 
 }
